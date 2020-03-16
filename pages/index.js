@@ -1,21 +1,22 @@
 
-import Nav from '../Components/Nav';
+import Layout from '../Components/Layout';
+import Weather from '../Components/Weather';
 
 const Index = () => (
 
-<div className = "Index">
-    
-    <h1>Home</h1>
+    <Layout>
 
-    <Nav />
-    
-    <p>Hello World, this is your project tracker</p>
-    
-    
-    
-</div>
+        <div className = "Index">
+        
+            <h1>Home</h1>
+            <p>Hello World, this is your project tracker</p>
+
+            <Weather />
+
+        </div>
 
 
+    </Layout>
 
 );
 

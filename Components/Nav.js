@@ -6,9 +6,10 @@ class Nav extends React.Component{
     render(){
         //render method should return JSX
         return(
-            <div className = 'Nav'>
+            <nav className = 'Nav'>
                 <ul>
                     <li><Link href='/'><a>Home</a></Link></li>
+                    <li><Link href='/projects'><a>Projects</a></Link></li>
                     <li><Link href='/about'><a>About</a></Link></li>
                 </ul>
                 <style jsx>
@@ -35,7 +36,7 @@ class Nav extends React.Component{
                     }
                     `}
                 </style>
-            </div>
+            </nav>
         )
     }
 }
