@@ -2,6 +2,7 @@
 import Layout from '../Components/Layout';
 import Weather from '../Components/Weather';
 
+
 const Index = () => (
 
     <Layout>
@@ -19,5 +20,7 @@ const Index = () => (
     </Layout>
 
 );
+
+
 
 export default Index;
