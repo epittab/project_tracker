@@ -1,6 +1,7 @@
 import React from 'react';
 import fetch from 'isomorphic-unfetch';
 
+import {apiKey} from '../apikey'
 
 class Weather extends React.Component{
 
@@ -15,7 +16,7 @@ class Weather extends React.Component{
 
     
     async getWeather(){
-        let APIkey = `47223e8adfa0691808af2ddf8d58fed3`;
+        let APIkey = apiKey.weatherApiKey;
         let zipCode = `22602`;
         let countryCode = `us`;
         let URL = `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode},${countryCode}&appid=${APIkey}`;
@@ -35,6 +36,7 @@ class Weather extends React.Component{
     }
 
     render(){
+
         //render method should return JSX
         return(
             <div className = 'Weather'>

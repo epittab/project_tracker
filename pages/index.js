@@ -1,4 +1,3 @@
-
 import Layout from '../Components/Layout';
 import Weather from '../Components/Weather';
 
