@@ -12,21 +12,46 @@ class Weather extends React.Component{
     constructor(props){
         super(props);
 
+        this.state = {
+
+            zipCode: `22602`,
+            countryCode: 'us',
+            data: "1",
+        }       
+       
     }
 
     
+    componentDidMount(){
+        //useful for Async functions 
+
+        this.getWeather().then( ( data ) => {
+            this.setState({
+                ...this.state,
+                data: data.cod
+            })
+        });
+        //runs after component renders
+        console.log("component did mount")
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot){
+        //not in use
+        console.log("component did update")
+    }
+    
+  
+
     async getWeather(){
         let APIkey = apiKey.weatherApiKey;
-        let zipCode = `22602`;
-        let countryCode = `us`;
-        let URL = `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode},${countryCode}&appid=${APIkey}`;
+        let URL = `http://api.openweathermap.org/data/2.5/weather?zip=${this.state.zipCode},${this.state.countryCode}&appid=${APIkey}`;
 
         try {
             const res = await fetch(URL);
             if (res.ok) {
                 const data = await res.json();
                 console.log(data)
-                return {weat: data.coord}
+                return data
             }
             throw new Error('Error Message');    
         }
@@ -35,8 +60,10 @@ class Weather extends React.Component{
         }
     }
 
-    render(){
+    
 
+    render(){
+        console.log("rendered")
         //render method should return JSX
         return(
             <div className = 'Weather'>
@@ -45,8 +72,11 @@ class Weather extends React.Component{
                     <h1> Weather </h1>
                     <p> - List types of consults</p>
                     <p> - display retrieved information graphically </p>
+                    <p> hello {this.state.data} </p>
+                    
                    
-                    <p> {console.log(this.getWeather())} </p>
+
+
                 </div>
 
                 <style jsx>
