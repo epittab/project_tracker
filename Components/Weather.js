@@ -67,7 +67,11 @@ class Weather extends React.Component{
     renderWidget(){
         return(
             <div>
-                <h1>{this.state.data.base}</h1>
+                <h1>City: {this.state.data.name}</h1>
+                <p>Current Temperature: {this.state.data.main.temp}</p>
+                <p>Weather: {this.state.data.weather[0].main}</p>
+                <p>Humidity: {this.state.data.main.humidity}</p>
+                <p>Wind Speed: {this.state.data.wind.speed}</p>
             </div>
         )
     }
@@ -83,7 +87,7 @@ class Weather extends React.Component{
                     <h1> Weather </h1>
                     <p> - List types of consults</p>
                     <p> - display retrieved information graphically </p>
-                    <p> hello { this.state.isLoaded ? this.renderWidget() : this.state.data.initial} </p>
+                    <div> { this.state.isLoaded ? this.renderWidget() : this.state.data.initial} </div>
 
                     <br></br> 
 
