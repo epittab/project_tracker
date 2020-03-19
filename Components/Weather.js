@@ -16,7 +16,10 @@ class Weather extends React.Component{
 
             zipCode: `22602`,
             countryCode: 'us',
-            data: "1",
+            isLoaded: false,
+            data: {
+                initial: "",
+            },
         }       
        
     }
@@ -28,7 +31,8 @@ class Weather extends React.Component{
         this.getWeather().then( ( data ) => {
             this.setState({
                 ...this.state,
-                data: data.cod
+                isLoaded: true,
+                data: data
             })
         });
         //runs after component renders
@@ -60,6 +64,13 @@ class Weather extends React.Component{
         }
     }
 
+    renderWidget(){
+        return(
+            <div>
+                <h1>{this.state.data.base}</h1>
+            </div>
+        )
+    }
     
 
     render(){
@@ -72,9 +83,16 @@ class Weather extends React.Component{
                     <h1> Weather </h1>
                     <p> - List types of consults</p>
                     <p> - display retrieved information graphically </p>
-                    <p> hello {this.state.data} </p>
-                    
-                   
+                    <p> hello { this.state.isLoaded ? this.renderWidget() : this.state.data.initial} </p>
+
+                    <br></br> 
+
+                    <p>Choose a new zip code: </p>
+                    <input name='zip'></input>
+
+                    <br></br> 
+
+                    <button>Submit</button>
 
 
                 </div>
