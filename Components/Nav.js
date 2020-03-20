@@ -20,7 +20,7 @@ class Nav extends React.Component{
                         box-sizing: border-box;
                     }
                     .Nav {
-                        background-color: rgba(200, 200, 200, 1);
+                        background-color: rgba(10, 60, 20, 1);
 
                     }
                     ul {
@@ -28,12 +28,18 @@ class Nav extends React.Component{
                         flex-direction: row;
                         list-style: none;
                     }
-                    a{
-                        text-decoration: none;
-                        color: black;
-                        margin-left: 1rem;
 
+                    a {
+                        text-decoration: none;
+                        color: rgba(240, 240, 240, .7);
+                        margin-left: 1rem;
                     }
+
+                    a:hover {
+                        color: rgba(240, 240, 240, 1);
+                    }
+
+
                     `}
                 </style>
             </nav>

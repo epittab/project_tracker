@@ -5,6 +5,7 @@ export const projects_array = [{
     projectDesc: 'Build out a quick webapp this weekend',
     startDate: '',
     projectScope: '',
+    createdOn: 'Fri Mar 20 2020 09:56:02 GMT-0400 (AST)',
     team: ['Enrique Pittaluga', 'Chery Manon'],
     taskList: [
         {taskid: 2,

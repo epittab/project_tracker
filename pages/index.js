@@ -1,6 +1,6 @@
 import Layout from '../Components/Layout';
 import Weather from '../Components/Weather';
-import ProjectList from '../Components/ProjectList';
+import ProjectList from '../Components/ProjectComponents/ProjectList';
 import {projects_array} from '../sample_projects';
 
 
@@ -27,8 +27,6 @@ const Index = () => (
                     background-color: rgba(230, 230, 230, .8);
                     color: rgba(40, 40, 40, .8);
                 }
-                 
-              
                 `}
             </style>
 

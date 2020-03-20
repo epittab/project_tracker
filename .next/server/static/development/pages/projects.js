@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -185,21 +185,21 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   render() {
     //render method should return JSX
     return __jsx("nav", {
-      className: "jsx-3262998215" + " " + 'Nav',
+      className: "jsx-956642472" + " " + 'Nav',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 9
       },
       __self: this
     }, __jsx("ul", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
       },
       __self: this
     }, __jsx("li", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11
@@ -213,14 +213,14 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("a", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11
       },
       __self: this
     }, "Home"))), __jsx("li", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 12
@@ -234,14 +234,14 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("a", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 12
       },
       __self: this
     }, "Projects"))), __jsx("li", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
@@ -255,16 +255,16 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       },
       __self: this
     }, __jsx("a", {
-      className: "jsx-3262998215",
+      className: "jsx-956642472",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
       },
       __self: this
     }, "About")))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-      id: "3262998215",
+      id: "956642472",
       __self: this
-    }, "*.jsx-3262998215{margin:0;padding:0;box-sizing:border-box;}.Nav.jsx-3262998215{background-color:rgba(200,200,200,1);}ul.jsx-3262998215{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;list-style:none;}a.jsx-3262998215{-webkit-text-decoration:none;text-decoration:none;color:black;margin-left:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9OYXYuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZXFCLEFBR2tDLEFBSytCLEFBSTNCLEFBS1EsU0FiWCxVQUNZLGtCQUsxQixJQUpBLFNBWWdCLFlBQ0ssWUFORSxLQVF2QixnRUFQb0IsZ0JBQ3BCIiwiZmlsZSI6Ii9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9OYXYuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuY2xhc3MgTmF2IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xuXG4gICAgcmVuZGVyKCl7XG4gICAgICAgIC8vcmVuZGVyIG1ldGhvZCBzaG91bGQgcmV0dXJuIEpTWFxuICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICA8bmF2IGNsYXNzTmFtZSA9ICdOYXYnPlxuICAgICAgICAgICAgICAgIDx1bD5cbiAgICAgICAgICAgICAgICAgICAgPGxpPjxMaW5rIGhyZWY9Jy8nPjxhPkhvbWU8L2E+PC9MaW5rPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgIDxsaT48TGluayBocmVmPScvcHJvamVjdHMnPjxhPlByb2plY3RzPC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgICAgICAgICAgICA8bGk+PExpbmsgaHJlZj0nL2Fib3V0Jz48YT5BYm91dDwvYT48L0xpbms+PC9saT5cbiAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgICAgICAgICAgICAgIHtgXG4gICAgICAgICAgICAgICAgICAgICp7XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAuTmF2IHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjAwLCAyMDAsIDIwMCwgMSk7XG5cbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB1bCB7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgYXtcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiBibGFjaztcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAxcmVtO1xuXG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgYH1cbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxuICAgICAgICAgICAgPC9uYXY+XG4gICAgICAgIClcbiAgICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IE5hdjsiXX0= */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/Nav.js */"));
+    }, "*.jsx-956642472{margin:0;padding:0;box-sizing:border-box;}.Nav.jsx-956642472{background-color:rgba(10,60,20,1);}ul.jsx-956642472{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;list-style:none;}a.jsx-956642472{-webkit-text-decoration:none;text-decoration:none;color:rgba(240,240,240,.7);margin-left:1rem;}a.jsx-956642472:hover{color:rgba(240,240,240,1);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9OYXYuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZXFCLEFBR2tDLEFBSzRCLEFBSXhCLEFBTVEsQUFNUSxTQXBCbkIsVUFDWSxPQW9CMUIsUUFmQSxPQUpBLFNBYWtDLHdCQU5YLEdBT0YsaUJBQ3JCLGlEQVBvQixnQkFDcEIiLCJmaWxlIjoiL1VzZXJzL2VucmlxdWVwaXR0YWx1Z2EvRGVza3RvcC9Qcm9ncmFtbWluZy9Qcm9qZWN0cy9wcm9qZWN0dHJhY2tlci9Db21wb25lbnRzL05hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuXG5jbGFzcyBOYXYgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICByZW5kZXIoKXtcbiAgICAgICAgLy9yZW5kZXIgbWV0aG9kIHNob3VsZCByZXR1cm4gSlNYXG4gICAgICAgIHJldHVybihcbiAgICAgICAgICAgIDxuYXYgY2xhc3NOYW1lID0gJ05hdic+XG4gICAgICAgICAgICAgICAgPHVsPlxuICAgICAgICAgICAgICAgICAgICA8bGk+PExpbmsgaHJlZj0nLyc+PGE+SG9tZTwvYT48L0xpbms+PC9saT5cbiAgICAgICAgICAgICAgICAgICAgPGxpPjxMaW5rIGhyZWY9Jy9wcm9qZWN0cyc+PGE+UHJvamVjdHM8L2E+PC9MaW5rPjwvbGk+XG4gICAgICAgICAgICAgICAgICAgIDxsaT48TGluayBocmVmPScvYWJvdXQnPjxhPkFib3V0PC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgICAgICAgIDwvdWw+XG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICAgICAgICAgICAge2BcbiAgICAgICAgICAgICAgICAgICAgKntcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIC5OYXYge1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgxMCwgNjAsIDIwLCAxKTtcblxuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIHVsIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgICAgICAgICAgICAgICAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIGEge1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHJnYmEoMjQwLCAyNDAsIDI0MCwgLjcpO1xuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDFyZW07XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICBhOmhvdmVyIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiByZ2JhKDI0MCwgMjQwLCAyNDAsIDEpO1xuICAgICAgICAgICAgICAgICAgICB9XG5cblxuICAgICAgICAgICAgICAgICAgICBgfVxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgICAgICA8L25hdj5cbiAgICAgICAgKVxuICAgIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgTmF2OyJdfQ== */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/Nav.js */"));
   }
 
 }
@@ -273,10 +273,10 @@ class Nav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 
 /***/ }),
 
-/***/ "./Components/ProjectList.js":
-/*!***********************************!*\
-  !*** ./Components/ProjectList.js ***!
-  \***********************************/
+/***/ "./Components/ProjectComponents/ProjectList.js":
+/*!*****************************************************!*\
+  !*** ./Components/ProjectComponents/ProjectList.js ***!
+  \*****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -288,7 +288,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectList.js";
+var _jsxFileName = "/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectList.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -338,28 +338,28 @@ class ProjectList extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
     console.log("rendered"); //render method should return JSX and styling
 
     return __jsx("div", {
-      className: "jsx-3353760761" + " " + 'ProjectList',
+      className: "jsx-2680802968" + " " + 'ProjectList',
       __source: {
         fileName: _jsxFileName,
         lineNumber: 50
       },
       __self: this
     }, __jsx("div", {
-      className: "jsx-3353760761",
+      className: "jsx-2680802968",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 52
       },
       __self: this
     }, __jsx("h1", {
-      className: "jsx-3353760761",
+      className: "jsx-2680802968",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 53
       },
       __self: this
     }, " Projects "), __jsx("p", {
-      className: "jsx-3353760761",
+      className: "jsx-2680802968",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 54
@@ -367,16 +367,16 @@ class ProjectList extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
       __self: this
     }, " You have ", this.state.isLoggedon ? `${this.props.projects.length} project(s)` : 'No Projects', " "), __jsx("button", {
       onClick: this.login,
-      className: "jsx-3353760761",
+      className: "jsx-2680802968",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 56
       },
       __self: this
     }, this.state.isLoggedon ? `Log Off` : `Log On`)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-      id: "3353760761",
+      id: "2680802968",
       __self: this
-    }, "*.jsx-3353760761{margin:0;padding:0;box-sizing:border-box;}.ProjectList.jsx-3353760761{background-color:rgba(160,180,230,.8);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0TGlzdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErRHFCLEFBR3NDLEFBT2QsU0FOZSxVQUNZLG1CQUsxQixHQUpBIiwiZmlsZSI6Ii9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0TGlzdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJztcblxuY2xhc3MgUHJvamVjdExpc3QgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICBjb25zdHJ1Y3Rvcihwcm9wcyl7XG4gICAgICAgIHN1cGVyKHByb3BzKTtcblxuICAgICAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgICAgICAgcHJvamVjdHNMaXN0OiBbXSxcbiAgICAgICAgICAgIGlzTG9nZ2Vkb246IGZhbHNlXG4gICAgICAgIH0gICAgICAgXG5cbiAgICAgICAgdGhpcy5sb2dpbiA9IHRoaXMubG9naW4uYmluZCh0aGlzKVxuICAgICAgIFxuICAgIH1cblxuICAgIFxuICAgIGNvbXBvbmVudERpZE1vdW50KCl7XG4gICAgICAgIC8vdXNlZnVsIGZvciBBc3luYyBmdW5jdGlvbnMgXG5cbiAgICAgICAgXG4gICAgICAgIC8vcnVucyBhZnRlciBjb21wb25lbnQgcmVuZGVyc1xuICAgICAgICBjb25zb2xlLmxvZyhcImNvbXBvbmVudCBkaWQgbW91bnRcIilcbiAgICB9XG5cbiAgICBjb21wb25lbnREaWRVcGRhdGUocHJldlByb3BzLCBwcmV2U3RhdGUsIHNuYXBzaG90KXtcbiAgICAgICAgLy9ub3QgaW4gdXNlXG4gICAgICAgIGNvbnNvbGUubG9nKFwiY29tcG9uZW50IGRpZCB1cGRhdGVcIilcbiAgICB9XG5cbiAgICBsb2dpbigpe1xuICAgICAgICBpZiAodGhpcy5zdGF0ZS5pc0xvZ2dlZG9uKSB7XG4gICAgICAgICAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgICAgICAgICAgICAuLi50aGlzLnN0YXRlLFxuICAgICAgICAgICAgICAgIGlzTG9nZ2Vkb246IGZhbHNlXG4gICAgICAgICAgICB9KVxuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICAgICAgICAgICAgLi4udGhpcy5zdGF0ZSxcbiAgICAgICAgICAgICAgICBpc0xvZ2dlZG9uOiB0cnVlXG4gICAgICAgICAgICB9KVxuICAgICAgICB9XG4gICAgfSAgICBcblxuICAgIHJlbmRlcigpe1xuICAgICAgICBjb25zb2xlLmxvZyhcInJlbmRlcmVkXCIpXG4gICAgICAgIC8vcmVuZGVyIG1ldGhvZCBzaG91bGQgcmV0dXJuIEpTWCBhbmQgc3R5bGluZ1xuICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZSA9ICdQcm9qZWN0TGlzdCc+XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgPGgxPiBQcm9qZWN0cyA8L2gxPlxuICAgICAgICAgICAgICAgICAgICA8cD4gWW91IGhhdmUgeyB0aGlzLnN0YXRlLmlzTG9nZ2Vkb24gPyBgJHt0aGlzLnByb3BzLnByb2plY3RzLmxlbmd0aH0gcHJvamVjdChzKWAgOiAnTm8gUHJvamVjdHMnfSA8L3A+XG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3RoaXMubG9naW59PnsgdGhpcy5zdGF0ZS5pc0xvZ2dlZG9uID8gYExvZyBPZmZgIDogYExvZyBPbmB9PC9idXR0b24+XG4gICAgICAgICAgICAgICAgICAgXG5cblxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIHtgXG4gICAgICAgICAgICAgICAgICAgICAgICAqe1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5Qcm9qZWN0TGlzdHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDE2MCwgMTgwLCAyMzAsIC44KVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICBgfVxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKVxuICAgIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgUHJvamVjdExpc3Q7Il19 */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectList.js */"));
+    }, "*.jsx-2680802968{margin:0;padding:0;box-sizing:border-box;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0TGlzdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErRHFCLEFBR3NDLFNBQ0MsVUFDWSxzQkFDMUIiLCJmaWxlIjoiL1VzZXJzL2VucmlxdWVwaXR0YWx1Z2EvRGVza3RvcC9Qcm9ncmFtbWluZy9Qcm9qZWN0cy9wcm9qZWN0dHJhY2tlci9Db21wb25lbnRzL1Byb2plY3RDb21wb25lbnRzL1Byb2plY3RMaXN0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBmZXRjaCBmcm9tICdpc29tb3JwaGljLXVuZmV0Y2gnO1xuXG5jbGFzcyBQcm9qZWN0TGlzdCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcblxuICAgIGNvbnN0cnVjdG9yKHByb3BzKXtcbiAgICAgICAgc3VwZXIocHJvcHMpO1xuXG4gICAgICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICAgICAgICBwcm9qZWN0c0xpc3Q6IFtdLFxuICAgICAgICAgICAgaXNMb2dnZWRvbjogZmFsc2VcbiAgICAgICAgfSAgICAgICBcblxuICAgICAgICB0aGlzLmxvZ2luID0gdGhpcy5sb2dpbi5iaW5kKHRoaXMpXG4gICAgICAgXG4gICAgfVxuXG4gICAgXG4gICAgY29tcG9uZW50RGlkTW91bnQoKXtcbiAgICAgICAgLy91c2VmdWwgZm9yIEFzeW5jIGZ1bmN0aW9ucyBcblxuICAgICAgICBcbiAgICAgICAgLy9ydW5zIGFmdGVyIGNvbXBvbmVudCByZW5kZXJzXG4gICAgICAgIGNvbnNvbGUubG9nKFwiY29tcG9uZW50IGRpZCBtb3VudFwiKVxuICAgIH1cblxuICAgIGNvbXBvbmVudERpZFVwZGF0ZShwcmV2UHJvcHMsIHByZXZTdGF0ZSwgc25hcHNob3Qpe1xuICAgICAgICAvL25vdCBpbiB1c2VcbiAgICAgICAgY29uc29sZS5sb2coXCJjb21wb25lbnQgZGlkIHVwZGF0ZVwiKVxuICAgIH1cblxuICAgIGxvZ2luKCl7XG4gICAgICAgIGlmICh0aGlzLnN0YXRlLmlzTG9nZ2Vkb24pIHtcbiAgICAgICAgICAgIHRoaXMuc2V0U3RhdGUoe1xuICAgICAgICAgICAgICAgIC4uLnRoaXMuc3RhdGUsXG4gICAgICAgICAgICAgICAgaXNMb2dnZWRvbjogZmFsc2VcbiAgICAgICAgICAgIH0pXG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgICAgICAgICAgICAuLi50aGlzLnN0YXRlLFxuICAgICAgICAgICAgICAgIGlzTG9nZ2Vkb246IHRydWVcbiAgICAgICAgICAgIH0pXG4gICAgICAgIH1cbiAgICB9ICAgIFxuXG4gICAgcmVuZGVyKCl7XG4gICAgICAgIGNvbnNvbGUubG9nKFwicmVuZGVyZWRcIilcbiAgICAgICAgLy9yZW5kZXIgbWV0aG9kIHNob3VsZCByZXR1cm4gSlNYIGFuZCBzdHlsaW5nXG4gICAgICAgIHJldHVybihcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lID0gJ1Byb2plY3RMaXN0Jz5cbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICA8aDE+IFByb2plY3RzIDwvaDE+XG4gICAgICAgICAgICAgICAgICAgIDxwPiBZb3UgaGF2ZSB7IHRoaXMuc3RhdGUuaXNMb2dnZWRvbiA/IGAke3RoaXMucHJvcHMucHJvamVjdHMubGVuZ3RofSBwcm9qZWN0KHMpYCA6ICdObyBQcm9qZWN0cyd9IDwvcD5cbiAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17dGhpcy5sb2dpbn0+eyB0aGlzLnN0YXRlLmlzTG9nZ2Vkb24gPyBgTG9nIE9mZmAgOiBgTG9nIE9uYH08L2J1dHRvbj5cbiAgICAgICAgICAgICAgICAgICBcblxuXG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAge2BcbiAgICAgICAgICAgICAgICAgICAgICAgICp7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIGB9XG4gICAgICAgICAgICAgICAgPC9zdHlsZT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICApXG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0TGlzdDsiXX0= */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectList.js */"));
   }
 
 }
@@ -385,10 +385,10 @@ class ProjectList extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component
 
 /***/ }),
 
-/***/ "./Components/ProjectTemplate.js":
-/*!***************************************!*\
-  !*** ./Components/ProjectTemplate.js ***!
-  \***************************************/
+/***/ "./Components/ProjectComponents/ProjectModule.js":
+/*!*******************************************************!*\
+  !*** ./Components/ProjectComponents/ProjectModule.js ***!
+  \*******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -400,7 +400,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectTemplate.js";
+/* harmony import */ var _ProjectList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProjectList */ "./Components/ProjectComponents/ProjectList.js");
+/* harmony import */ var _ProjectTemplate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ProjectTemplate */ "./Components/ProjectComponents/ProjectTemplate.js");
+/* harmony import */ var _sample_projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../sample_projects */ "./sample_projects.js");
+var _jsxFileName = "/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectModule.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -410,6 +413,168 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+ // import uuid from 'react-uuid'
+
+
+
+
+
+
+class ProjectModule extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isShowing: 1,
+      isLoggedon: false
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  componentDidMount() {
+    //useful for Async functions 
+    //runs after component renders
+    console.log("component did mount");
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    //not in use
+    console.log("component did update");
+  }
+
+  handleClick(e) {
+    this.setState(_objectSpread({}, this.state, {
+      isShowing: e.target.value
+    }));
+    console.log(e.target.value);
+  }
+
+  render() {
+    console.log("rendered");
+    {
+      switch (this.state.isShowing) {
+        case 1:
+          break;
+
+        case 2:
+          break;
+
+        default:
+      }
+    } //render method should return JSX and styling
+
+    return __jsx("div", {
+      className: "jsx-1227254636" + " " + 'ProjectModule',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "jsx-1227254636" + " " + 'Proj-module-search',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, __jsx("h2", {
+      className: "jsx-1227254636",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, "Search Projects"), __jsx("input", {
+      id: "proj-search-input",
+      placeholder: "Search...",
+      className: "jsx-1227254636",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    })), __jsx("div", {
+      className: "jsx-1227254636" + " " + 'Proj-module-tabs',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, __jsx("nav", {
+      className: "jsx-1227254636",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }, __jsx("ul", {
+      className: "jsx-1227254636" + " " + 'Proj-module-tabs-menu',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    }, __jsx("li", {
+      value: "1",
+      onClick: this.handleClick,
+      className: "jsx-1227254636",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73
+      },
+      __self: this
+    }, "New Project"), __jsx("li", {
+      value: "2",
+      onClick: this.handleClick,
+      className: "jsx-1227254636",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74
+      },
+      __self: this
+    }, "View/Edit Project")))), this.state.isShowing === 1 ? __jsx(_ProjectList__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      projects: _sample_projects__WEBPACK_IMPORTED_MODULE_5__["projects_array"],
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79
+      },
+      __self: this
+    }) : __jsx(_ProjectTemplate__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79
+      },
+      __self: this
+    }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "1227254636",
+      __self: this
+    }, ".ProjectModule.jsx-1227254636{background-color:rgba(0,50,30,.8);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;border-radius:3px;color:rgba(250,250,250,.9);margin-top:2rem;padding:2rem 1rem 2rem 1rem;}.Proj-module-search.jsx-1227254636{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-right:50px;margin-left:50px;}.Proj-module-tabs.jsx-1227254636{margin-top:2rem;margin-bottom:2rem;}.Proj-module-tabs-menu.jsx-1227254636{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;margin-right:50px;margin-left:50px;list-style:none;cursor:pointer;}.Proj-module-tabs-menu.jsx-1227254636 li.jsx-1227254636{color:rgba(230,230,230,.7);}.Proj-module-tabs-menu.jsx-1227254636 li.jsx-1227254636:hover{color:rgba(230,230,230,1);}#proj-search-input.jsx-1227254636{height:2rem;width:300px;font-size:1.2rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0TW9kdWxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1GcUIsQUFJa0UsQUFleEIsQUFhRyxBQUtILEFBZWlCLEFBSUQsQUFJakIsWUFDQSxJQTVCTyxRQTZCRixFQUxyQixDQUpBLE9BaERpQixDQTZCakIsTUE2QkEsaUNBM0N1QixBQWtCQSxrQ0FoQ0csbUNBZ0JILEFBa0JBLDJDQWhDRCxrQkFDWSwyQkFFZCxLQVljLEFBa0JELFdBN0JELDRCQUloQyw0RUFVc0IsUUFrQkEsVUFqQkQsUUFrQkEsU0FqQnJCLFFBbUJvQixnQkFDRCxlQUNuQiIsImZpbGUiOiIvVXNlcnMvZW5yaXF1ZXBpdHRhbHVnYS9EZXNrdG9wL1Byb2dyYW1taW5nL1Byb2plY3RzL3Byb2plY3R0cmFja2VyL0NvbXBvbmVudHMvUHJvamVjdENvbXBvbmVudHMvUHJvamVjdE1vZHVsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG4vLyBpbXBvcnQgdXVpZCBmcm9tICdyZWFjdC11dWlkJ1xuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCc7XG5pbXBvcnQgUHJvamVjdExpc3QgZnJvbSAnLi9Qcm9qZWN0TGlzdCc7XG5pbXBvcnQgUHJvamVjdFRlbXBsYXRlIGZyb20gJy4vUHJvamVjdFRlbXBsYXRlJztcbmltcG9ydCB7cHJvamVjdHNfYXJyYXl9IGZyb20gJy4uLy4uL3NhbXBsZV9wcm9qZWN0cyc7XG5cbmNsYXNzIFByb2plY3RNb2R1bGUgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICBjb25zdHJ1Y3Rvcihwcm9wcyl7XG4gICAgICAgIHN1cGVyKHByb3BzKTtcblxuICAgICAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgICAgICAgaXNTaG93aW5nOiAxLFxuICAgICAgICAgICAgaXNMb2dnZWRvbjogZmFsc2VcbiAgICAgICAgfSAgICAgICBcblxuICAgICAgICB0aGlzLmhhbmRsZUNsaWNrID0gdGhpcy5oYW5kbGVDbGljay5iaW5kKHRoaXMpO1xuICAgICAgIFxuICAgIH1cblxuICAgIFxuICAgIGNvbXBvbmVudERpZE1vdW50KCl7XG4gICAgICAgIC8vdXNlZnVsIGZvciBBc3luYyBmdW5jdGlvbnMgXG5cbiAgICAgICAgXG4gICAgICAgIC8vcnVucyBhZnRlciBjb21wb25lbnQgcmVuZGVyc1xuICAgICAgICBjb25zb2xlLmxvZyhcImNvbXBvbmVudCBkaWQgbW91bnRcIilcbiAgICB9XG5cbiAgICBjb21wb25lbnREaWRVcGRhdGUocHJldlByb3BzLCBwcmV2U3RhdGUsIHNuYXBzaG90KXtcbiAgICAgICAgLy9ub3QgaW4gdXNlXG4gICAgICAgIGNvbnNvbGUubG9nKFwiY29tcG9uZW50IGRpZCB1cGRhdGVcIilcbiAgICB9XG5cbiAgICBoYW5kbGVDbGljayhlKXtcbiAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICAgICAgICAuLi50aGlzLnN0YXRlLFxuICAgICAgICAgICAgaXNTaG93aW5nOiBlLnRhcmdldC52YWx1ZVxuICAgICAgICB9KVxuICAgICAgICBjb25zb2xlLmxvZyhlLnRhcmdldC52YWx1ZSk7XG4gICAgfVxuXG4gICAgcmVuZGVyKCl7XG4gICAgICAgIGNvbnNvbGUubG9nKFwicmVuZGVyZWRcIilcbiAgICAgICAge1xuICAgICAgICAgICAgc3dpdGNoICh0aGlzLnN0YXRlLmlzU2hvd2luZykge1xuXG4gICAgICAgICAgICAgICAgY2FzZSAxOlxuXG4gICAgICAgICAgICAgICAgYnJlYWs7XG4gICAgICAgICAgICAgICAgY2FzZSAyOlxuXG4gICAgICAgICAgICAgICAgYnJlYWs7XG4gICAgICAgICAgICAgICAgZGVmYXVsdDpcblxuICAgICAgICAgICAgfVxuXG4gICAgICAgIH1cbiAgICAgICAgLy9yZW5kZXIgbWV0aG9kIHNob3VsZCByZXR1cm4gSlNYIGFuZCBzdHlsaW5nXG4gICAgICAgIHJldHVybihcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lID0gJ1Byb2plY3RNb2R1bGUnPlxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nUHJvai1tb2R1bGUtc2VhcmNoJz5cbiAgICAgICAgICAgICAgICAgICAgPGgyPlNlYXJjaCBQcm9qZWN0czwvaDI+XG4gICAgICAgICAgICAgICAgICAgIDxpbnB1dCBpZD0ncHJvai1zZWFyY2gtaW5wdXQnIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPVwiU2VhcmNoLi4uXCI+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdQcm9qLW1vZHVsZS10YWJzJz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxuYXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0nUHJvai1tb2R1bGUtdGFicy1tZW51Jz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIHZhbHVlPVwiMVwiIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xpY2t9Pk5ldyBQcm9qZWN0PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIHZhbHVlPVwiMlwiIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xpY2t9PlZpZXcvRWRpdCBQcm9qZWN0PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9uYXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgeyB0aGlzLnN0YXRlLmlzU2hvd2luZyA9PT0gMSA/IDxQcm9qZWN0TGlzdCBwcm9qZWN0cz17cHJvamVjdHNfYXJyYXl9Lz4gOiAgPFByb2plY3RUZW1wbGF0ZSAvPiB9XG5cbiAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICB7YFxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuUHJvamVjdE1vZHVsZSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCA1MCwgMzAsIC44KTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHJnYmEoMjUwLCAyNTAsIDI1MCwgLjkpO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAycmVtIDFyZW0gMnJlbSAxcmVtO1xuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuUHJvai1tb2R1bGUtc2VhcmNoIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogNTBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogNTBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuUHJvai1tb2R1bGUtdGFicyB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuUHJvai1tb2R1bGUtdGFicy1tZW51IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiA1MHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiA1MHB4O1xuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5Qcm9qLW1vZHVsZS10YWJzLW1lbnUgbGkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiByZ2JhKDIzMCwgMjMwLCAyMzAsIC43KTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLlByb2otbW9kdWxlLXRhYnMtbWVudSBsaTpob3ZlciB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHJnYmEoMjMwLCAyMzAsIDIzMCwgMSk7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICNwcm9qLXNlYXJjaC1pbnB1dCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAycmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAzMDBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgYH1cbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIClcbiAgICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RNb2R1bGU7Il19 */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectModule.js */"));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ProjectModule);
+
+/***/ }),
+
+/***/ "./Components/ProjectComponents/ProjectTemplate.js":
+/*!*********************************************************!*\
+  !*** ./Components/ProjectComponents/ProjectTemplate.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectTemplate.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+ // import uuid from 'react-uuid'
 
 
 
@@ -417,7 +582,13 @@ class ProjectTemplate extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compo
   constructor(props) {
     super(props);
     this.state = {
-      projectsList: [],
+      projectID: '',
+      projectOwner: '',
+      projectTitle: '',
+      projectDesc: '',
+      startDate: '',
+      projectScope: '',
+      createdOn: '',
       isLoggedon: false
     };
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -435,196 +606,213 @@ class ProjectTemplate extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compo
     console.log("component did update");
   }
 
-  handleChange(e) {}
+  handleChange(e) {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  }
 
   handleSubmit(e) {
     e.preventDefault();
-
+    const createdDate = new Date();
+    console.log(createdDate);
+    const obj = {
+      projectID: '1',
+      projectOwner: this.state.projectOwner,
+      projectTitle: this.state.projectTitle,
+      projectDesc: this.state.projectDesc,
+      startDate: this.state.startDate,
+      projectScope: this.state.projectScope,
+      createdOn: createdDate
+    };
+    console.log(obj);
+    /*
     if (this.state.isLoggedon) {
-      this.setState(_objectSpread({}, this.state, {
-        isLoggedon: false
-      }));
+        this.setState({
+            ...this.state,
+            isLoggedon: false
+        })
     } else {
-      this.setState(_objectSpread({}, this.state, {
-        isLoggedon: true
-      }));
+        this.setState({
+            ...this.state,
+            isLoggedon: true
+        })
     }
+    */
   }
 
   render() {
     console.log("rendered"); //render method should return JSX and styling
 
     return __jsx("div", {
-      className: "jsx-1184390400" + " " + 'ProjectTemplate',
+      className: "jsx-171798114" + " " + 'ProjectTemplate',
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
-      },
-      __self: this
-    }, __jsx("div", {
-      className: "jsx-1184390400",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 84
       },
       __self: this
     }, __jsx("h1", {
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 87
       },
       __self: this
     }, " Create a Project "), __jsx("form", {
       onSubmit: this.handleSubmit,
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 89
       },
       __self: this
     }, __jsx("label", {
-      htmlFor: "",
-      className: "jsx-1184390400" + " " + "",
+      htmlFor: "new_proj_owner",
+      className: "jsx-171798114" + " " + "proj-details-class",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63
+        lineNumber: 90
       },
       __self: this
     }, "Project Owner"), __jsx("input", {
       onChange: this.handleChange,
-      id: "",
-      name: "",
-      value: "",
-      className: "jsx-1184390400",
+      id: "new_proj_owner",
+      name: "projectOwner",
+      value: this.state.projectOwner,
+      type: "text",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 91
       },
       __self: this
     }), __jsx("br", {
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 96
       },
       __self: this
     }), __jsx("label", {
-      htmlFor: "",
-      className: "jsx-1184390400" + " " + "",
+      htmlFor: "new_proj_title",
+      className: "jsx-171798114" + " " + "proj-details-class",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 97
       },
       __self: this
     }, "Project Title"), __jsx("input", {
       onChange: this.handleChange,
-      id: "",
-      name: "",
-      value: "",
-      className: "jsx-1184390400",
+      id: "new_proj_title",
+      name: "projectTitle",
+      value: this.state.projectTitle,
+      type: "text",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 98
       },
       __self: this
     }), __jsx("br", {
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 103
       },
       __self: this
     }), __jsx("label", {
-      htmlFor: "",
-      className: "jsx-1184390400" + " " + "",
+      htmlFor: "new_proj_desc",
+      className: "jsx-171798114" + " " + "proj-details-class",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 104
       },
       __self: this
     }, "Project Desc"), __jsx("input", {
       onChange: this.handleChange,
-      id: "",
-      name: "",
-      value: "",
-      className: "jsx-1184390400",
+      id: "new_proj_desc",
+      name: "projectDesc",
+      value: this.state.projectDesc,
+      type: "text",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 105
       },
       __self: this
     }), __jsx("br", {
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
+        lineNumber: 110
       },
       __self: this
     }), __jsx("label", {
-      htmlFor: "",
-      className: "jsx-1184390400" + " " + "",
+      htmlFor: "new_proj_start_Date",
+      className: "jsx-171798114" + " " + "proj-details-class",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 111
       },
       __self: this
     }, "Start Date"), __jsx("input", {
       onChange: this.handleChange,
-      id: "",
-      name: "",
-      value: "",
-      className: "jsx-1184390400",
+      id: "new_proj_start_Date",
+      name: "startDate",
+      value: this.state.startDate,
+      type: "text",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 112
       },
       __self: this
     }), __jsx("br", {
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 117
       },
       __self: this
     }), __jsx("label", {
-      htmlFor: "",
-      className: "jsx-1184390400" + " " + "",
+      htmlFor: "new_proj_scope",
+      className: "jsx-171798114" + " " + "proj-details-class",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75
+        lineNumber: 118
       },
       __self: this
     }, "Project Scope"), __jsx("input", {
       onChange: this.handleChange,
-      id: "",
-      name: "",
-      value: "",
-      className: "jsx-1184390400",
+      id: "new_proj_scope",
+      name: "projectScope",
+      value: this.state.projectScope,
+      type: "text",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76
+        lineNumber: 119
       },
       __self: this
     }), __jsx("br", {
-      className: "jsx-1184390400",
+      className: "jsx-171798114",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77
+        lineNumber: 124
       },
       __self: this
     }), __jsx("button", {
       onClick: this.handleSubmit,
-      className: "jsx-1184390400",
+      className: "jsx-171798114" + " " + "proj-btn-class",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 126
       },
       __self: this
-    }, "Create Project"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-      id: "1184390400",
+    }, "Create Project")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "171798114",
       __self: this
-    }, "*.jsx-1184390400{margin:0;padding:0;box-sizing:border-box;}.ProjectTemplate.jsx-1184390400{background-color:rgba(160,180,230,.8);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0VGVtcGxhdGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBc0ZxQixBQUdzQyxBQVFkLFNBUGUsVUFDWSxtQkFNMUIsR0FMQSIsImZpbGUiOiIvVXNlcnMvZW5yaXF1ZXBpdHRhbHVnYS9EZXNrdG9wL1Byb2dyYW1taW5nL1Byb2plY3RzL3Byb2plY3R0cmFja2VyL0NvbXBvbmVudHMvUHJvamVjdFRlbXBsYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBmZXRjaCBmcm9tICdpc29tb3JwaGljLXVuZmV0Y2gnO1xuXG5jbGFzcyBQcm9qZWN0VGVtcGxhdGUgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICBjb25zdHJ1Y3Rvcihwcm9wcyl7XG4gICAgICAgIHN1cGVyKHByb3BzKTtcblxuICAgICAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgICAgICAgcHJvamVjdHNMaXN0OiBbXSxcbiAgICAgICAgICAgIGlzTG9nZ2Vkb246IGZhbHNlXG4gICAgICAgIH0gICAgICAgXG5cbiAgICAgICAgdGhpcy5oYW5kbGVTdWJtaXQgPSB0aGlzLmhhbmRsZVN1Ym1pdC5iaW5kKHRoaXMpXG4gICAgICAgIHRoaXMuaGFuZGxlQ2hhbmdlID0gdGhpcy5oYW5kbGVDaGFuZ2UuYmluZCh0aGlzKVxuICAgICAgIFxuICAgIH1cblxuICAgIFxuICAgIGNvbXBvbmVudERpZE1vdW50KCl7XG4gICAgICAgIC8vdXNlZnVsIGZvciBBc3luYyBmdW5jdGlvbnMgXG5cbiAgICAgICAgXG4gICAgICAgIC8vcnVucyBhZnRlciBjb21wb25lbnQgcmVuZGVyc1xuICAgICAgICBjb25zb2xlLmxvZyhcImNvbXBvbmVudCBkaWQgbW91bnRcIilcbiAgICB9XG5cbiAgICBjb21wb25lbnREaWRVcGRhdGUocHJldlByb3BzLCBwcmV2U3RhdGUsIHNuYXBzaG90KXtcbiAgICAgICAgLy9ub3QgaW4gdXNlXG4gICAgICAgIGNvbnNvbGUubG9nKFwiY29tcG9uZW50IGRpZCB1cGRhdGVcIilcbiAgICB9XG5cbiAgICBoYW5kbGVDaGFuZ2UoZSl7XG5cbiAgICB9XG5cbiAgICBoYW5kbGVTdWJtaXQoZSl7XG4gICAgICAgIGUucHJldmVudERlZmF1bHQoKTtcblxuICAgICAgICBpZiAodGhpcy5zdGF0ZS5pc0xvZ2dlZG9uKSB7XG4gICAgICAgICAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgICAgICAgICAgICAuLi50aGlzLnN0YXRlLFxuICAgICAgICAgICAgICAgIGlzTG9nZ2Vkb246IGZhbHNlXG4gICAgICAgICAgICB9KVxuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICAgICAgICAgICAgLi4udGhpcy5zdGF0ZSxcbiAgICAgICAgICAgICAgICBpc0xvZ2dlZG9uOiB0cnVlXG4gICAgICAgICAgICB9KVxuICAgICAgICB9XG4gICAgfSAgICBcblxuICAgIHJlbmRlcigpe1xuICAgICAgICBjb25zb2xlLmxvZyhcInJlbmRlcmVkXCIpXG4gICAgICAgIC8vcmVuZGVyIG1ldGhvZCBzaG91bGQgcmV0dXJuIEpTWCBhbmQgc3R5bGluZ1xuICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZSA9ICdQcm9qZWN0VGVtcGxhdGUnPlxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgIDxoMT4gQ3JlYXRlIGEgUHJvamVjdCA8L2gxPlxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIDxmb3JtIG9uU3VibWl0ID0ge3RoaXMuaGFuZGxlU3VibWl0fT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJcIiBodG1sRm9yPVwiXCI+UHJvamVjdCBPd25lcjwvbGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgb25DaGFuZ2U9e3RoaXMuaGFuZGxlQ2hhbmdlfSBpZD1cIlwiIG5hbWU9XCJcIiB2YWx1ZT1cIlwiPjwvaW5wdXQ+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YnI+PC9icj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJcIiBodG1sRm9yPVwiXCI+UHJvamVjdCBUaXRsZTwvbGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgb25DaGFuZ2U9e3RoaXMuaGFuZGxlQ2hhbmdlfSBpZD1cIlwiIG5hbWU9XCJcIiB2YWx1ZT1cIlwiPjwvaW5wdXQ+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YnI+PC9icj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJcIiBodG1sRm9yPVwiXCI+UHJvamVjdCBEZXNjPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBvbkNoYW5nZT17dGhpcy5oYW5kbGVDaGFuZ2V9IGlkPVwiXCIgbmFtZT1cIlwiIHZhbHVlPVwiXCI+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cIlwiIGh0bWxGb3I9XCJcIj5TdGFydCBEYXRlPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBvbkNoYW5nZT17dGhpcy5oYW5kbGVDaGFuZ2V9IGlkPVwiXCIgbmFtZT1cIlwiIHZhbHVlPVwiXCI+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cIlwiIGh0bWxGb3I9XCJcIj5Qcm9qZWN0IFNjb3BlPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBvbkNoYW5nZT17dGhpcy5oYW5kbGVDaGFuZ2V9IGlkPVwiXCIgbmFtZT1cIlwiIHZhbHVlPVwiXCI+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxuXG4gICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17dGhpcy5oYW5kbGVTdWJtaXR9PkNyZWF0ZSBQcm9qZWN0PC9idXR0b24+XG5cbiAgICAgICAgICAgICAgICAgICAgPC9mb3JtPlxuXG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAge2BcbiAgICAgICAgICAgICAgICAgICAgICAgICp7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLlByb2plY3RUZW1wbGF0ZXtcblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMTYwLCAxODAsIDIzMCwgLjgpXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIGB9XG4gICAgICAgICAgICAgICAgPC9zdHlsZT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICApXG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0VGVtcGxhdGU7Il19 */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectTemplate.js */"));
+    }, ".ProjectTemplate.jsx-171798114{background-color:rgba(0,50,30,.8);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;border-radius:3px;color:rgba(250,250,250,.9);margin-top:2rem;padding:2rem 1rem 2rem 1rem;}.proj-details-class.jsx-171798114{font-size:1.2rem;margin-right:2rem;}.proj-btn-class.jsx-171798114{margin-top:1rem;height:2rem;padding-left:2rem;padding-right:2rem;border-radius:25px;font-size:1.2rem;background-color:orange;border:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0VGVtcGxhdGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUlxQixBQUlrRSxBQWVwQixBQU1ELGdCQUVKLENBUE0sV0FVQSxNQXpCTCxDQWdCakIsV0FVdUIsbUJBQ0EsbUJBRUYsaUJBQ08sT0E3QkYsaUJBOEJWLFlBRWhCLGlEQTlCc0Isa0JBQ1ksMkJBRWQsZ0JBQ1ksNEJBSWhDIiwiZmlsZSI6Ii9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0VGVtcGxhdGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuLy8gaW1wb3J0IHV1aWQgZnJvbSAncmVhY3QtdXVpZCdcbmltcG9ydCBmZXRjaCBmcm9tICdpc29tb3JwaGljLXVuZmV0Y2gnO1xuXG5jbGFzcyBQcm9qZWN0VGVtcGxhdGUgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICBjb25zdHJ1Y3Rvcihwcm9wcyl7XG4gICAgICAgIHN1cGVyKHByb3BzKTtcblxuICAgICAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgICAgICAgICAgIHByb2plY3RJRDogJycsXG4gICAgICAgICAgICAgICAgcHJvamVjdE93bmVyOiAnJyxcbiAgICAgICAgICAgICAgICBwcm9qZWN0VGl0bGU6ICcnLFxuICAgICAgICAgICAgICAgIHByb2plY3REZXNjOiAnJyxcbiAgICAgICAgICAgICAgICBzdGFydERhdGU6ICcnLFxuICAgICAgICAgICAgICAgIHByb2plY3RTY29wZTogJycsXG4gICAgICAgICAgICAgICAgY3JlYXRlZE9uOiAnJyxcbiAgICAgICAgICAgIGlzTG9nZ2Vkb246IGZhbHNlXG4gICAgICAgIH0gICAgICAgXG5cbiAgICAgICAgdGhpcy5oYW5kbGVTdWJtaXQgPSB0aGlzLmhhbmRsZVN1Ym1pdC5iaW5kKHRoaXMpO1xuICAgICAgICB0aGlzLmhhbmRsZUNoYW5nZSA9IHRoaXMuaGFuZGxlQ2hhbmdlLmJpbmQodGhpcyk7XG4gICAgICAgXG4gICAgfVxuXG4gICAgXG4gICAgY29tcG9uZW50RGlkTW91bnQoKXtcbiAgICAgICAgLy91c2VmdWwgZm9yIEFzeW5jIGZ1bmN0aW9ucyBcblxuICAgICAgICBcbiAgICAgICAgLy9ydW5zIGFmdGVyIGNvbXBvbmVudCByZW5kZXJzXG4gICAgICAgIGNvbnNvbGUubG9nKFwiY29tcG9uZW50IGRpZCBtb3VudFwiKVxuICAgIH1cblxuICAgIGNvbXBvbmVudERpZFVwZGF0ZShwcmV2UHJvcHMsIHByZXZTdGF0ZSwgc25hcHNob3Qpe1xuICAgICAgICAvL25vdCBpbiB1c2VcbiAgICAgICAgY29uc29sZS5sb2coXCJjb21wb25lbnQgZGlkIHVwZGF0ZVwiKVxuICAgIH1cblxuICAgIGhhbmRsZUNoYW5nZShlKXtcbiAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICAgICAgICBbZS50YXJnZXQubmFtZV06IGUudGFyZ2V0LnZhbHVlXG4gICAgICAgIH0pO1xuICAgIH1cblxuICAgIGhhbmRsZVN1Ym1pdChlKXtcbiAgICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpO1xuXG4gICAgICAgIGNvbnN0IGNyZWF0ZWREYXRlID0gbmV3IERhdGUoKTtcblxuICAgICAgICBjb25zb2xlLmxvZyhjcmVhdGVkRGF0ZSk7XG5cbiAgICAgICAgY29uc3Qgb2JqID0ge1xuICAgICAgICAgICAgICAgIHByb2plY3RJRDogJzEnLFxuICAgICAgICAgICAgICAgIHByb2plY3RPd25lcjogdGhpcy5zdGF0ZS5wcm9qZWN0T3duZXIsXG4gICAgICAgICAgICAgICAgcHJvamVjdFRpdGxlOiB0aGlzLnN0YXRlLnByb2plY3RUaXRsZSxcbiAgICAgICAgICAgICAgICBwcm9qZWN0RGVzYzogdGhpcy5zdGF0ZS5wcm9qZWN0RGVzYyxcbiAgICAgICAgICAgICAgICBzdGFydERhdGU6IHRoaXMuc3RhdGUuc3RhcnREYXRlLFxuICAgICAgICAgICAgICAgIHByb2plY3RTY29wZTogdGhpcy5zdGF0ZS5wcm9qZWN0U2NvcGUsXG4gICAgICAgICAgICAgICAgY3JlYXRlZE9uOiBjcmVhdGVkRGF0ZSxcbiAgICAgICAgfVxuXG4gICAgICAgIGNvbnNvbGUubG9nKG9iaik7XG5cbiAgICAgICAgLypcbiAgICAgICAgaWYgKHRoaXMuc3RhdGUuaXNMb2dnZWRvbikge1xuICAgICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICAgICAgICAgICAgLi4udGhpcy5zdGF0ZSxcbiAgICAgICAgICAgICAgICBpc0xvZ2dlZG9uOiBmYWxzZVxuICAgICAgICAgICAgfSlcbiAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICAgIHRoaXMuc2V0U3RhdGUoe1xuICAgICAgICAgICAgICAgIC4uLnRoaXMuc3RhdGUsXG4gICAgICAgICAgICAgICAgaXNMb2dnZWRvbjogdHJ1ZVxuICAgICAgICAgICAgfSlcbiAgICAgICAgfVxuICAgICAgICAqL1xuICAgIH0gICAgXG5cbiAgICByZW5kZXIoKXtcbiAgICAgICAgY29uc29sZS5sb2coXCJyZW5kZXJlZFwiKVxuICAgICAgICAvL3JlbmRlciBtZXRob2Qgc2hvdWxkIHJldHVybiBKU1ggYW5kIHN0eWxpbmdcbiAgICAgICAgcmV0dXJuKFxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWUgPSAnUHJvamVjdFRlbXBsYXRlJz5cbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICA8aDE+IENyZWF0ZSBhIFByb2plY3QgPC9oMT5cbiAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICA8Zm9ybSBvblN1Ym1pdCA9IHt0aGlzLmhhbmRsZVN1Ym1pdH0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPVwicHJvai1kZXRhaWxzLWNsYXNzXCIgaHRtbEZvcj1cIm5ld19wcm9qX293bmVyXCI+UHJvamVjdCBPd25lcjwvbGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgb25DaGFuZ2U9e3RoaXMuaGFuZGxlQ2hhbmdlfSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJuZXdfcHJval9vd25lclwiIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwicHJvamVjdE93bmVyXCIgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0aGlzLnN0YXRlLnByb2plY3RPd25lcn0gXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J3RleHQnPjwvaW5wdXQ+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YnI+PC9icj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJwcm9qLWRldGFpbHMtY2xhc3NcIiBodG1sRm9yPVwibmV3X3Byb2pfdGl0bGVcIj5Qcm9qZWN0IFRpdGxlPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBvbkNoYW5nZT17dGhpcy5oYW5kbGVDaGFuZ2V9IFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZD1cIm5ld19wcm9qX3RpdGxlXCIgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJwcm9qZWN0VGl0bGVcIiBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3RoaXMuc3RhdGUucHJvamVjdFRpdGxlfSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0ndGV4dCc+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cInByb2otZGV0YWlscy1jbGFzc1wiIGh0bWxGb3I9XCJuZXdfcHJval9kZXNjXCI+UHJvamVjdCBEZXNjPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBvbkNoYW5nZT17dGhpcy5oYW5kbGVDaGFuZ2V9IFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZD1cIm5ld19wcm9qX2Rlc2NcIiBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInByb2plY3REZXNjXCIgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0aGlzLnN0YXRlLnByb2plY3REZXNjfSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0ndGV4dCc+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cInByb2otZGV0YWlscy1jbGFzc1wiIGh0bWxGb3I9XCJuZXdfcHJval9zdGFydF9EYXRlXCI+U3RhcnQgRGF0ZTwvbGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgb25DaGFuZ2U9e3RoaXMuaGFuZGxlQ2hhbmdlfSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJuZXdfcHJval9zdGFydF9EYXRlXCIgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdGFydERhdGVcIiBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3RoaXMuc3RhdGUuc3RhcnREYXRlfSBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0ndGV4dCc+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cInByb2otZGV0YWlscy1jbGFzc1wiIGh0bWxGb3I9XCJuZXdfcHJval9zY29wZVwiPlByb2plY3QgU2NvcGU8L2xhYmVsPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0IG9uQ2hhbmdlPXt0aGlzLmhhbmRsZUNoYW5nZX0gXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwibmV3X3Byb2pfc2NvcGVcIiBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInByb2plY3RTY29wZVwiIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dGhpcy5zdGF0ZS5wcm9qZWN0U2NvcGV9IFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSd0ZXh0Jz48L2lucHV0PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGJyPjwvYnI+XG5cbiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJwcm9qLWJ0bi1jbGFzc1wiIG9uQ2xpY2s9e3RoaXMuaGFuZGxlU3VibWl0fT5DcmVhdGUgUHJvamVjdDwvYnV0dG9uPlxuXG4gICAgICAgICAgICAgICAgICAgIDwvZm9ybT5cblxuICAgICAgICAgICAgICAgXG4gICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAge2BcblxuICAgICAgICAgICAgICAgICAgICAgICAgLlByb2plY3RUZW1wbGF0ZSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCA1MCwgMzAsIC44KTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHJnYmEoMjUwLCAyNTAsIDI1MCwgLjkpO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAycmVtIDFyZW0gMnJlbSAxcmVtO1xuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAucHJvai1kZXRhaWxzLWNsYXNzIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDJyZW07XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5wcm9qLWJ0bi1jbGFzcyB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMXJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDJyZW07XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDJyZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyNXB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMS4ycmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IG9yYW5nZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIGB9XG4gICAgICAgICAgICAgICAgPC9zdHlsZT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICApXG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0VGVtcGxhdGU7Il19 */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectTemplate.js */"));
   }
 
 }
@@ -2320,65 +2508,54 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Components/Layout */ "./Components/Layout.js");
-/* harmony import */ var _Components_ProjectList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/ProjectList */ "./Components/ProjectList.js");
-/* harmony import */ var _Components_ProjectTemplate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Components/ProjectTemplate */ "./Components/ProjectTemplate.js");
-/* harmony import */ var _sample_projects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sample_projects */ "./sample_projects.js");
+/* harmony import */ var _Components_ProjectComponents_ProjectModule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/ProjectComponents/ProjectModule */ "./Components/ProjectComponents/ProjectModule.js");
 var _jsxFileName = "/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/pages/projects.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
 const Projects = () => __jsx(_Components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 6
   },
   __self: undefined
 }, __jsx("div", {
   className: "Projects",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 7
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 8
   },
   __self: undefined
 }, "Projects page "), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 10
   },
   __self: undefined
 }, " Render a list of projets to check through API call"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 11
   },
   __self: undefined
 }, " - list should provide certain quick reference info about each project"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 12
   },
   __self: undefined
-}, " - list should provide title and project owner"), __jsx(_Components_ProjectList__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  projects: _sample_projects__WEBPACK_IMPORTED_MODULE_4__["projects_array"],
+}, " - list should provide title and project owner"), __jsx(_Components_ProjectComponents_ProjectModule__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}), __jsx(_Components_ProjectTemplate__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 14
   },
   __self: undefined
 })));
@@ -2404,6 +2581,7 @@ const projects_array = [{
   projectDesc: 'Build out a quick webapp this weekend',
   startDate: '',
   projectScope: '',
+  createdOn: 'Fri Mar 20 2020 09:56:02 GMT-0400 (AST)',
   team: ['Enrique Pittaluga', 'Chery Manon'],
   taskList: [{
     taskid: 2,
@@ -2431,7 +2609,7 @@ const projects_array = [{
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*********************************!*\
   !*** multi ./pages/projects.js ***!
   \*********************************/
