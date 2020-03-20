@@ -51,7 +51,7 @@ class ProjectList extends React.Component{
                 
                 <div>
                     <h1> Projects </h1>
-                    <p> You have { this.state.isLoggedon ? this.state.projectsList.length : 'No Projects'} </p>
+                    <p> You have { this.state.isLoggedon ? `${this.props.projects.length} project(s)` : 'No Projects'} </p>
                     
                     <button onClick={this.login}>{ this.state.isLoggedon ? `Log Off` : `Log On`}</button>
                    

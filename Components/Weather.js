@@ -13,21 +13,22 @@ class Weather extends React.Component{
         super(props);
 
         this.state = {
-
-            zipCode: `22602`,
+            zipCode: `20002`,
             countryCode: 'us',
+            units: 'imperial',
             isLoaded: false,
             data: {
+                name: "",
                 initial: "",
             },
         }       
+     
        
     }
 
     
     componentDidMount(){
         //useful for Async functions 
-
         this.getWeather().then( ( data ) => {
             this.setState({
                 ...this.state,
@@ -48,8 +49,7 @@ class Weather extends React.Component{
 
     async getWeather(){
         let APIkey = apiKey.weatherApiKey;
-        let URL = `http://api.openweathermap.org/data/2.5/weather?zip=${this.state.zipCode},${this.state.countryCode}&appid=${APIkey}`;
-
+        let URL = `http://api.openweathermap.org/data/2.5/weather?zip=${this.state.zipCode},${this.state.countryCode}&appid=${APIkey}&units=${this.state.units}`;
         try {
             const res = await fetch(URL);
             if (res.ok) {
@@ -66,12 +66,12 @@ class Weather extends React.Component{
 
     renderWidget(){
         return(
-            <div>
-                <h1>City: {this.state.data.name}</h1>
-                <p>Current Temperature: {this.state.data.main.temp}</p>
-                <p>Weather: {this.state.data.weather[0].main}</p>
-                <p>Humidity: {this.state.data.main.humidity}</p>
-                <p>Wind Speed: {this.state.data.wind.speed}</p>
+            <div id='weather-wrapper'>
+                <h3 className='weather-title'>City: {this.state.data.name}</h3>
+                <p className='weather-detail'>Current Temperature: {this.state.data.main.temp} F</p>
+                <p className='weather-detail'>Weather: {this.state.data.weather[0].main}</p>
+                <p className='weather-detail'>Humidity: {this.state.data.main.humidity}</p>
+                <p className='weather-detail'>Wind Speed: {this.state.data.wind.speed}</p>
             </div>
         )
     }
@@ -84,19 +84,29 @@ class Weather extends React.Component{
             <div className = 'Weather'>
                 
                 <div>
-                    <h1> Weather </h1>
+                    <h2> Weather </h2>
                     <p> - List types of consults</p>
                     <p> - display retrieved information graphically </p>
-                    <div> { this.state.isLoaded ? this.renderWidget() : this.state.data.initial} </div>
+                    <div> { this.state.isLoaded ? this.renderWidget() : 'Loading...' } </div>
 
                     <br></br> 
 
-                    <p>Choose a new zip code: </p>
-                    <input name='zip'></input>
+                    <p></p>
+                    
+                        <input id='zipCode-targeted'
+                            
+                            type = 'text'
+                            name='zipCode'
+                            value={this.state.zipCode}
+                            ></input>
+                            <br></br>
+                        <button className='zipCode-btn'>Submit</button>
+                
+                    
 
                     <br></br> 
 
-                    <button>Submit</button>
+                    
 
 
                 </div>
@@ -107,11 +117,39 @@ class Weather extends React.Component{
                             margin: 0;
                             padding: 0;
                             box-sizing: border-box;
+                            font-family: sans-serif;
                         }
 
                         .Weather{
-                            background-color: rgba(160, 180, 230, .8)
+                            margin-top: 2rem;
+                            padding-top: 1rem;
+                            padding-bottom: 1rem;
+                            background-color: rgba(230, 230, 230, .8);
+                            box-shadow: 3px 3px 3px 3px rgba(180, 180, 180, .6), 
+                                -3px -3px 3px 3px rgba(250, 250, 250, .8);
+                            border-radius: 5px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
                         }
+
+                        #weather-wrapper{
+
+                        }
+
+                        #weather-title {
+
+                        }
+
+                        .weather-details{
+
+                        }
+
+                        .zipCode-btn{
+
+                        }
+
                     `}
                 </style>
             </div>

@@ -17,7 +17,20 @@ class Layout extends React.Component{
                 </Head>
                 <Nav />
                 {this.props.children}
+            <style jsx>
+                {`
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: sans-serif;
+                    background-color: rgba(230, 230, 230, .8);
+                }
+              
+                `}
+            </style>
             </div>
+           
         );
     }
 
