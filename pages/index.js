@@ -1,7 +1,7 @@
 import Layout from '../Components/Layout';
 import Weather from '../Components/Weather';
-import ProjectList from '../Components/ProjectComponents/ProjectList';
-import {projects_array} from '../sample_projects';
+import Signin from '../Components/UserComponents/Signin';
+import Register from '../Components/UserComponents/Register';
 
 
 const Index = () => (
@@ -13,7 +13,9 @@ const Index = () => (
             <h1>Home</h1>
             <p>Hello World, this is your project tracker</p>
 
-            <ProjectList projects={projects_array}/>
+            < Signin />
+
+            < Register />
 
             <Weather />
 
