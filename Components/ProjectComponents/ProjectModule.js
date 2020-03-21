@@ -70,8 +70,8 @@ class ProjectModule extends React.Component{
                     <div className='Proj-module-tabs'>
                         <nav>
                             <ul className='Proj-module-tabs-menu'>
-                                <li value="1" onClick={this.handleClick}>New Project</li>
-                                <li value="2" onClick={this.handleClick}>View/Edit Project</li>
+                                <li value="2" onClick={this.handleClick}>New Project</li>
+                                <li value="1" onClick={this.handleClick}>View/Edit Project</li>
                             </ul>
                         </nav>
                     </div>
