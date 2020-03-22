@@ -1,5 +1,6 @@
 import React from 'react';
 import fetch from 'isomorphic-unfetch';
+import ProjectSummary from './ProjectSummary';
 
 class ProjectList extends React.Component{
 
@@ -43,19 +44,45 @@ class ProjectList extends React.Component{
         }
     }    
 
+    renderProjects(){
+        return(
+            <div>
+                 <ul>
+                        {this.props.projects.map(project=>
+                            <li><ProjectSummary 
+                                key={project.projectID}
+                                projectID={project.projectID} 
+                                projectOwner={project.projectOwner} 
+                                projectTitle={project.projectTitle}/></li>
+                            )}
+                </ul>
+                <style jsx>
+                    {`
+                    li {
+                        list-style: none;
+                    }
+                    `}
+                </style>
+                
+
+            </div>
+           
+        );
+    }
+
     render(){
-        console.log("rendered")
+      
         //render method should return JSX and styling
         return(
             <div className = 'ProjectList'>
                 
                 <div>
                     <h1> Projects </h1>
-                    <p> You have { this.state.isLoggedon ? `${this.props.projects.length} project(s)` : 'No Projects'} </p>
-                    
+                   
+                    { this.state.isLoggedon ? this.renderProjects() : ''}
+
                     <button onClick={this.login}>{ this.state.isLoggedon ? `Log Off` : `Log On`}</button>
                    
-
 
                 </div>
             
@@ -67,7 +94,6 @@ class ProjectList extends React.Component{
                             padding: 0;
                             box-sizing: border-box;
                         }
-
                         
                     `}
                 </style>
