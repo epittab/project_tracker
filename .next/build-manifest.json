@@ -35,6 +35,10 @@
     "/projects": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/tasks": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 
 class ProjectSummary extends React.Component{
@@ -7,9 +8,10 @@ class ProjectSummary extends React.Component{
         return(
             <div className='ProjectSummary'>
 
-                <p>Project: {this.props.projectID}</p>
+                <p><strong>Project:</strong> {this.props.projectID}</p>
                 <p>Project Owner: {this.props.projectOwner}</p>
                 <p>Project Title: {this.props.projectTitle}</p>
+                <Link href = {{pathname: '/tasks', query: {id: this.props.projectID}}}><a>View</a></Link>
 
 
                 <style jsx>
@@ -25,6 +27,9 @@ class ProjectSummary extends React.Component{
                         margin-top: 1rem;
                         margin-bottom: 1rem;
 
+                        background-color: rgba(0, 50, 30, .8);
+                        color: whitesmoke;
+
                         box-shadow: 3px 3px 3px 3px rgba(15, 75, 10, .4), 
                             -3px -3px 3px 3px rgba(60, 120, 50, .3);
                         border-radius: 3px;
@@ -38,7 +43,12 @@ class ProjectSummary extends React.Component{
                     }
 
                     p { 
-                        margin-right: 3rem;
+                        width: 25%;
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: whitesmoke;
                     }
                 `}
                 </style>

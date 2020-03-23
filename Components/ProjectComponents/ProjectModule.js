@@ -42,29 +42,19 @@ class ProjectModule extends React.Component{
     }
 
     render(){
-        console.log("rendered")
-        {
-            switch (this.state.isShowing) {
-
-                case 1:
-
-                break;
-                case 2:
-
-                break;
-                default:
-
-            }
-
-        }
+       
         //render method should return JSX and styling
         return(
             <div className = 'ProjectModule'>
                   
                   <div className='Proj-module-search'>
                     <h2>Search Projects</h2>
-                    <input id='proj-search-input' 
+                    <div className='Proj-module-search-bar'>
+                        <input id='proj-search-input' 
                             placeholder="Search..."></input>
+                        <div id='search-btn'>S</div>
+                    </div>
+                    
                   </div>
 
                     <div className='Proj-module-tabs'>
@@ -76,7 +66,10 @@ class ProjectModule extends React.Component{
                         </nav>
                     </div>
                     
+                    <div className='Proj-module-content'>
                     { this.state.isShowing === 1 ? <ProjectList projects={projects_array}/> :  <ProjectTemplate /> }
+                    </div>
+                    
 
             
                 <style jsx>
@@ -84,35 +77,71 @@ class ProjectModule extends React.Component{
                     {`
 
                         .ProjectModule {
-                            background-color: rgba(0, 50, 30, .8);
+                            
                             display: flex;
                             flex-direction: column;
+                            align-items: center;
 
                             border-radius: 3px;
                             color: rgba(250, 250, 250, .9);
 
-                            margin-top: 2rem;
-                            padding: 2rem 1rem 2rem 1rem;
+                            margin-top: .5rem;
+                            
 
+                            width: 100%;
 
                            
                         }
 
                         .Proj-module-search {
+                            background-color: rgba(0, 50, 30, .8);
+
                             display: flex;
                             flex-direction: row;
 
                             align-items: center;
                             justify-content: space-between;
 
+                            height: 4rem;
+                            width: 100%;
                             
-                            margin-right: 50px;
-                            margin-left: 50px;
+                          
+                            
+                            margin-bottom: .5rem;
                         }
 
+                        .Proj-module-search h2 {
+                            padding-left: 3rem;
+                            padding-right: 3rem;
+                        }
+
+                        .Proj-module-search-bar {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 3rem;
+                        }
+
+                        .Proj-module-search-bar input {
+                            height: 2rem;
+                        }
+
+                        .Proj-module-search-bar div {
+                            margin-left: .2rem;
+                            border-radius: 3px;
+                            height: 2.3rem;
+                            width: 2.3rem;
+                            text-align: center;
+                            line-height: 2.3;
+                            cursor: pointer;
+
+                            color: rgba(0, 50, 30, .8);
+                            background-color: rgba(250, 250, 250, .9);
+                        }
 
                         .Proj-module-tabs {
-                            margin-top: 2rem;
+                            width: 100%;
                             margin-bottom: 2rem;
                         }
 
@@ -132,7 +161,7 @@ class ProjectModule extends React.Component{
                         }
 
                         .Proj-module-tabs-menu li {
-                            color: rgba(230, 230, 230, .7);
+                            color: rgba(0, 50, 30, .8);
                         }
 
                         .Proj-module-tabs-menu li:hover {
@@ -143,6 +172,20 @@ class ProjectModule extends React.Component{
                             height: 2rem;
                             width: 300px;
                             font-size: 1.2rem;
+                        }
+
+                        .Proj-module-content {
+                            width: 90%;
+                            height: 600px;
+                            color: rgba(0, 50, 30, .8);
+
+                            display: flex;
+                            flex-direction: column;
+
+                            align-items: center;
+                            justify-content: center;
+
+
                         }
 
                        

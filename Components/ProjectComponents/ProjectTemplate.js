@@ -143,7 +143,8 @@ class ProjectTemplate extends React.Component{
 
                             margin-top: 2rem;
                             padding: 2rem 1rem 2rem 1rem;
-
+                            
+                            width: 100%;
 
                            
                         }

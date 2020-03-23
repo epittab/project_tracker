@@ -8,11 +8,16 @@ const handle = app.getRequestHandler()
 app.prepare()
 .then(() => {
   const server = express()
+
+  server.get('/tasks/:project_id', (req, res) => {
+    console.log(req.params)
+    res.render(req, res, '/tasks', {project_id: req.params.project_id})
+  })
     
   server.get('*', (req, res) => {
     return handle(req, res)
   })
-    
+  
   server.listen(3000, (err) => {
     if (err) throw err
     console.log('> Ready on http://localhost:3000')

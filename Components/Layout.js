@@ -13,7 +13,7 @@ class Layout extends React.Component{
         return(
             <div className = 'Layout'>
                 <Head>
-                    <title>Stoiflo</title>
+                    <title>Sofo</title>
                 </Head>
                 <Nav />
                 {this.props.children}

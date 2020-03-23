@@ -58,9 +58,25 @@ class ProjectList extends React.Component{
                 </ul>
                 <style jsx>
                     {`
-                    li {
-                        list-style: none;
+                    *{
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
                     }
+                    div, ul {
+                        
+                        width: 100%;
+                    }
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        list-style: none;
+                        width: 100%;
+                    }
+
                     `}
                 </style>
                 
@@ -75,16 +91,11 @@ class ProjectList extends React.Component{
         //render method should return JSX and styling
         return(
             <div className = 'ProjectList'>
-                
-                <div>
-                    <h1> Projects </h1>
-                   
+                <div className='Project-table'>
                     { this.state.isLoggedon ? this.renderProjects() : ''}
-
                     <button onClick={this.login}>{ this.state.isLoggedon ? `Log Off` : `Log On`}</button>
-                   
-
                 </div>
+                
             
                 <style jsx>
                     
@@ -93,6 +104,32 @@ class ProjectList extends React.Component{
                             margin: 0;
                             padding: 0;
                             box-sizing: border-box;
+                        }
+
+                        .ProjectList {
+                            display: flex;
+                            flex-direct: column;
+                            align-items: center;
+                            justify-content: center;
+                            
+                            width: 100%;
+                        }
+
+                        .Project-table {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                        }
+
+                        button {
+                            height: 3rem;
+                            width: 150px;
+                            border-radius: 3px;
+                            font-size: 1.2rem;
+
+                            background-color: orange;
                         }
                         
                     `}
