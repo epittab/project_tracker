@@ -443,7 +443,7 @@ class ProjectSummary extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compon
       className: "jsx-3723594467"
     }, "Project Title: ", this.props.projectTitle), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: {
-        pathname: '/tasks',
+        pathname: '/project',
         query: {
           id: this.props.projectID
         }
@@ -452,7 +452,7 @@ class ProjectSummary extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compon
       className: "jsx-3723594467"
     }, "View")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
       id: "3723594467"
-    }, ".ProjectSummary.jsx-3723594467{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:2rem;width:90%;margin-top:1rem;margin-bottom:1rem;background-color:rgba(0,50,30,.8);color:whitesmoke;box-shadow:3px 3px 3px 3px rgba(15,75,10,.4), -3px -3px 3px 3px rgba(60,120,50,.3);border-radius:3px;}.ProjectSummary.jsx-3723594467:hover{background-color:rgba(35,95,35,.4);cursor:pointer;box-shadow:3px 3px 3px 3px rgba(15,75,10,.4), -3px -3px 3px 3px rgba(60,120,50,.3);}p.jsx-3723594467{width:25%;}a.jsx-3723594467{-webkit-text-decoration:none;text-decoration:none;color:whitesmoke;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0U3VtbWFyeS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQmlCLEFBR3NDLEFBbUJ5QixBQU81QixBQUlXLFVBSHpCLHlCQVBtQixlQUV3QixBQVN0QixpQkFDckIsT0EvQnVCLDJEQXNCdkIsVUFyQnVCLDZGQUNJLG1HQUVYLFlBQ0YsVUFDTSxnQkFDRyxtQkFFa0Isa0NBQ3BCLGlCQUcwQixtRkFDekIsa0JBQ3RCIiwiZmlsZSI6Ii9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0U3VtbWFyeS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cblxuY2xhc3MgUHJvamVjdFN1bW1hcnkgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICByZW5kZXIoKXtcbiAgICAgICAgcmV0dXJuKFxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RTdW1tYXJ5Jz5cblxuICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+UHJvamVjdDo8L3N0cm9uZz4ge3RoaXMucHJvcHMucHJvamVjdElEfTwvcD5cbiAgICAgICAgICAgICAgICA8cD5Qcm9qZWN0IE93bmVyOiB7dGhpcy5wcm9wcy5wcm9qZWN0T3duZXJ9PC9wPlxuICAgICAgICAgICAgICAgIDxwPlByb2plY3QgVGl0bGU6IHt0aGlzLnByb3BzLnByb2plY3RUaXRsZX08L3A+XG4gICAgICAgICAgICAgICAgPExpbmsgaHJlZiA9IHt7cGF0aG5hbWU6ICcvdGFza3MnLCBxdWVyeToge2lkOiB0aGlzLnByb3BzLnByb2plY3RJRH19fT48YT5WaWV3PC9hPjwvTGluaz5cblxuXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAgICAgICAgICB7YFxuICAgICAgICAgICAgICAgICAgICAuUHJvamVjdFN1bW1hcnkge1xuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMnJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA5MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTtcblxuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCA1MCwgMzAsIC44KTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZXNtb2tlO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAzcHggM3B4IDNweCAzcHggcmdiYSgxNSwgNzUsIDEwLCAuNCksIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0zcHggLTNweCAzcHggM3B4IHJnYmEoNjAsIDEyMCwgNTAsIC4zKTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIC5Qcm9qZWN0U3VtbWFyeTpob3ZlciB7XG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDM1LCA5NSwgMzUsIC40KTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDNweCAzcHggM3B4IDNweCByZ2JhKDE1LCA3NSwgMTAsIC40KSwgXG4gICAgICAgICAgICAgICAgICAgICAgICAtM3B4IC0zcHggM3B4IDNweCByZ2JhKDYwLCAxMjAsIDUwLCAuMyk7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICBwIHsgXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMjUlO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgYXtcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZXNtb2tlO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgYH1cbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgXG4gICAgICAgICk7XG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0U3VtbWFyeTsiXX0= */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectSummary.js */"));
+    }, ".ProjectSummary.jsx-3723594467{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:2rem;width:90%;margin-top:1rem;margin-bottom:1rem;background-color:rgba(0,50,30,.8);color:whitesmoke;box-shadow:3px 3px 3px 3px rgba(15,75,10,.4), -3px -3px 3px 3px rgba(60,120,50,.3);border-radius:3px;}.ProjectSummary.jsx-3723594467:hover{background-color:rgba(35,95,35,.4);cursor:pointer;box-shadow:3px 3px 3px 3px rgba(15,75,10,.4), -3px -3px 3px 3px rgba(60,120,50,.3);}p.jsx-3723594467{width:25%;}a.jsx-3723594467{-webkit-text-decoration:none;text-decoration:none;color:whitesmoke;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0U3VtbWFyeS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQmlCLEFBR3NDLEFBbUJ5QixBQU81QixBQUlXLFVBSHpCLHlCQVBtQixlQUV3QixBQVN0QixpQkFDckIsT0EvQnVCLDJEQXNCdkIsVUFyQnVCLDZGQUNJLG1HQUVYLFlBQ0YsVUFDTSxnQkFDRyxtQkFFa0Isa0NBQ3BCLGlCQUcwQixtRkFDekIsa0JBQ3RCIiwiZmlsZSI6Ii9Vc2Vycy9lbnJpcXVlcGl0dGFsdWdhL0Rlc2t0b3AvUHJvZ3JhbW1pbmcvUHJvamVjdHMvcHJvamVjdHRyYWNrZXIvQ29tcG9uZW50cy9Qcm9qZWN0Q29tcG9uZW50cy9Qcm9qZWN0U3VtbWFyeS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cblxuY2xhc3MgUHJvamVjdFN1bW1hcnkgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cbiAgICByZW5kZXIoKXtcbiAgICAgICAgcmV0dXJuKFxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RTdW1tYXJ5Jz5cblxuICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+UHJvamVjdDo8L3N0cm9uZz4ge3RoaXMucHJvcHMucHJvamVjdElEfTwvcD5cbiAgICAgICAgICAgICAgICA8cD5Qcm9qZWN0IE93bmVyOiB7dGhpcy5wcm9wcy5wcm9qZWN0T3duZXJ9PC9wPlxuICAgICAgICAgICAgICAgIDxwPlByb2plY3QgVGl0bGU6IHt0aGlzLnByb3BzLnByb2plY3RUaXRsZX08L3A+XG4gICAgICAgICAgICAgICAgPExpbmsgaHJlZiA9IHt7cGF0aG5hbWU6ICcvcHJvamVjdCcsIHF1ZXJ5OiB7aWQ6IHRoaXMucHJvcHMucHJvamVjdElEfX19PjxhPlZpZXc8L2E+PC9MaW5rPlxuXG5cbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgIHtgXG4gICAgICAgICAgICAgICAgICAgIC5Qcm9qZWN0U3VtbWFyeSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcblxuICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAycmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDkwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDFyZW07XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsIDUwLCAzMCwgLjgpO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlc21va2U7XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDNweCAzcHggM3B4IDNweCByZ2JhKDE1LCA3NSwgMTAsIC40KSwgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLTNweCAtM3B4IDNweCAzcHggcmdiYSg2MCwgMTIwLCA1MCwgLjMpO1xuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogM3B4O1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLlByb2plY3RTdW1tYXJ5OmhvdmVyIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMzUsIDk1LCAzNSwgLjQpO1xuICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogM3B4IDNweCAzcHggM3B4IHJnYmEoMTUsIDc1LCAxMCwgLjQpLCBcbiAgICAgICAgICAgICAgICAgICAgICAgIC0zcHggLTNweCAzcHggM3B4IHJnYmEoNjAsIDEyMCwgNTAsIC4zKTtcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIHAgeyBcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAyNSU7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICBhe1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlc21va2U7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICBgfVxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICBcbiAgICAgICAgKTtcbiAgICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb2plY3RTdW1tYXJ5OyJdfQ== */\n/*@ sourceURL=/Users/enriquepittaluga/Desktop/Programming/Projects/projecttracker/Components/ProjectComponents/ProjectSummary.js */"));
   }
 
 }
@@ -2353,17 +2353,17 @@ const projects_array = [{
     taskid: 2,
     taskName: 'Start',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Plan things'
+    taskDef: 'Plan things 43'
   }, {
     taskid: 3,
     taskName: 'Middle',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Do things'
+    taskDef: 'Do things 43'
   }, {
     taskid: 4,
     taskName: 'End',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Review things'
+    taskDef: 'Review things 43'
   }],
   completedTaskList: [{
     taskid: 1,
@@ -2384,17 +2384,17 @@ const projects_array = [{
     taskid: 2,
     taskName: 'Start',
     taskLeader: 'Chery Manon',
-    taskDef: 'Plan things'
+    taskDef: 'Plan things 24'
   }, {
     taskid: 3,
     taskName: 'Middle',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Do things'
+    taskDef: 'Do things 24'
   }, {
     taskid: 4,
     taskName: 'End',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Review things'
+    taskDef: 'Review things 24'
   }],
   completedTaskList: [{
     taskid: 1,
@@ -2415,17 +2415,17 @@ const projects_array = [{
     taskid: 2,
     taskName: 'Start',
     taskLeader: 'Chery Manon',
-    taskDef: 'Plan things'
+    taskDef: 'Plan things 13'
   }, {
     taskid: 3,
     taskName: 'Middle',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Do things'
+    taskDef: 'Do things 13'
   }, {
     taskid: 4,
     taskName: 'End',
     taskLeader: 'Enrique Pittaluga',
-    taskDef: 'Review things'
+    taskDef: 'Review things 13'
   }],
   completedTaskList: [{
     taskid: 1,

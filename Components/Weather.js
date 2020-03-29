@@ -13,7 +13,7 @@ class Weather extends React.Component{
         super(props);
 
         this.state = {
-            zipCode: `20002`,
+            zipCode: `22904`,
             countryCode: 'us',
             units: 'imperial',
             isLoaded: false,

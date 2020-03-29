@@ -11,7 +11,7 @@ class ProjectSummary extends React.Component{
                 <p><strong>Project:</strong> {this.props.projectID}</p>
                 <p>Project Owner: {this.props.projectOwner}</p>
                 <p>Project Title: {this.props.projectTitle}</p>
-                <Link href = {{pathname: '/tasks', query: {id: this.props.projectID}}}><a>View</a></Link>
+                <Link href = {{pathname: '/project', query: {id: this.props.projectID}}}><a>View</a></Link>
 
 
                 <style jsx>

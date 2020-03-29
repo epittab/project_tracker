@@ -11,19 +11,19 @@ export const projects_array = [{
         {taskid: 2,
         taskName: 'Start',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Plan things'
+        taskDef: 'Plan things 43'
         }, 
         {
         taskid: 3,
         taskName: 'Middle',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Do things'
+        taskDef: 'Do things 43'
         }, 
         {
         taskid: 4,
         taskName: 'End',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Review things'
+        taskDef: 'Review things 43'
         }],
     completedTaskList: [{
         taskid: 1,
@@ -45,19 +45,19 @@ export const projects_array = [{
         {taskid: 2,
         taskName: 'Start',
         taskLeader: 'Chery Manon',
-        taskDef: 'Plan things'
+        taskDef: 'Plan things 24'
         }, 
         {
         taskid: 3,
         taskName: 'Middle',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Do things'
+        taskDef: 'Do things 24'
         }, 
         {
         taskid: 4,
         taskName: 'End',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Review things'
+        taskDef: 'Review things 24'  
         }],
     completedTaskList: [{
         taskid: 1,
@@ -79,19 +79,19 @@ export const projects_array = [{
         {taskid: 2,
         taskName: 'Start',
         taskLeader: 'Chery Manon',
-        taskDef: 'Plan things'
+        taskDef: 'Plan things 13'
         }, 
         {
         taskid: 3,
         taskName: 'Middle',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Do things'
+        taskDef: 'Do things 13'
         }, 
         {
         taskid: 4,
         taskName: 'End',
         taskLeader: 'Enrique Pittaluga',
-        taskDef: 'Review things'
+        taskDef: 'Review things 13'
         }],
     completedTaskList: [{
         taskid: 1,
