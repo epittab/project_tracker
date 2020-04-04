@@ -9,14 +9,14 @@ import { useRouter } from 'next/router'
 const Task = () => {
 
     const router = useRouter()
-    const { pid } = router.query
+    const  pid = router.query
 
-    console.log(pid);
+    console.log(router);
     return(
          
         <Layout >
             <div className='Tasks'>
-            <h1> Task id: {pid}</h1>
+            <h1> Task id: {pid['id']}</h1>
 
 
             <p> Render a list of projets to check through API call</p>

@@ -22,7 +22,8 @@ class ProjectModule extends React.Component{
     
     componentDidMount(){
         //useful for Async functions 
-
+        //http get call for all projects
+        
         
         //runs after component renders
         console.log("component did mount")

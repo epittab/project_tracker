@@ -4,6 +4,7 @@ import Link from 'next/link';
 import ProjectDetail from '../PDetailComponents/ProjectDetail';
 import {projects_array} from '../../sample_projects';
 
+import CreateTask from '../TaskComponents/CreateTask';
 
 
 class ProjectOverview extends React.Component {
@@ -39,10 +40,15 @@ class ProjectOverview extends React.Component {
     }
 
     render(){
-
+        console.log(this.props.id)
         return (
             <div>
                 <div className='ProjectOverview'>
+
+                    
+                    <Link href={{pathname: '/tasks', query: {id: this.props.id}}}><div id='create_task_btn'><span>+</span></div></Link>
+
+                    
 
                     <div>{this.state.isLoaded ? this.createList() : <p>Loading...</p>}</div>                   
 
@@ -78,6 +84,35 @@ class ProjectOverview extends React.Component {
                         margin-left: 3rem;   
                     }
 
+                    #create_task_btn {
+                        height: 2rem;
+                        width: 2rem;
+                        border-radius: 50%;
+
+                        background-color: rgba(230, 210, 104, .9);
+                        transition: ease-in .25s;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        cursor: pointer;
+                    }
+
+                    #create_task_btn:hover {
+                        transition: ease-in .25s;
+                        border-color: solid rgba(64, 64, 64, .4) 1px;
+                        background-color: rgba(220, 180, 84, .9);
+                        
+                    }
+
+                    #create_task_btn span {
+                        
+                        color: white;
+                    
+                    }
+
+                   
 
                     `}
                     

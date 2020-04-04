@@ -28,6 +28,7 @@ class ProjectTemplate extends React.Component{
         //useful for Async functions 
 
         
+
         //runs after component renders
         console.log("component did mount")
     }
@@ -46,6 +47,8 @@ class ProjectTemplate extends React.Component{
     handleSubmit(e){
         e.preventDefault();
 
+        //http put to create
+
         const createdDate = new Date();
 
         console.log(createdDate);
@@ -61,6 +64,16 @@ class ProjectTemplate extends React.Component{
         }
 
         console.log(obj);
+
+        let urlRoute = 'http://localhost:3000/projects';
+
+        fetch(`${urlRoute}/:1`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(obj)
+          });
 
         /*
         if (this.state.isLoggedon) {
