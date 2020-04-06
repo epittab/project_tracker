@@ -1,4 +1,5 @@
 import React from 'react';
+import fetch from 'isomorphic-unfetch';
 
 class Register extends React.Component{
     constructor(props) {
@@ -16,9 +17,51 @@ class Register extends React.Component{
     }
 
 
-    handleSubmit(e){
+    handleSubmit = async (e) => {
         e.preventDefault();
-    }
+
+        //create obj for HTTP submission
+        let obj = {
+            first_name: this.state.first_name,
+            last_name: this.state.last_name,
+            user_name: this.state.user_name,
+            email: this.state.email,
+            password: this.state.password
+        } 
+
+        //submit with async http call
+        try{
+            let data = await fetch('http://localhost:4000/api/user', {
+                method: 'POST',
+                headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json;charset=UTF-8'
+                    },
+                body: JSON.stringify(obj),
+            })
+            if (data.ok) {
+                let jsonData = await data.json()
+                console.log(jsonData)
+                return jsonData 
+            } 
+            throw new Error('Error Message: ')
+            }
+        catch(err){
+            console.log(`You have an error with code: ${err}`)
+        }
+
+        //resetting State values to zero
+        
+
+        this.setState({
+            first_name: '',
+            last_name: '',
+            user_name: '',
+            email: '',
+            password:''  
+        }) 
+
+        } 
 
     handleChange(e){
         this.setState({
